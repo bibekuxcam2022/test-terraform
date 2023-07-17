@@ -1,0 +1,7 @@
+version: 3
+projects:
+  - dir: my-terraform-config
+    name: My Terraform Config
+    workspace: default
+    apply_requirements: [approved]
+
